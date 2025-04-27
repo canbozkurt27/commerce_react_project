@@ -44,7 +44,7 @@ const products = [
       name: 'Telefon',
       price:799.00,
       img: 'https://cdn.cimri.io/image/1200x1200/apple-iphone-15-pro-128gb_825862481.jpg',
-      desc: 'Kablosuz bluetooth kulaklık.',
+      desc: 'Akıllı Telefon.',
       stock: 7,
       category: 'Electronics',
     },
