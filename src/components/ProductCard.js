@@ -16,7 +16,7 @@ export default function ProductCard({ product, addToCart }) {
         className="card-btn"
         onClick={() => addToCart(product)}
       >
-        Add to Cart
+        Sepete Ekle
       </button>
     </div>
   );

@@ -11,7 +11,6 @@ import './App.css';
 function App() {
   // cart: [{ id, name, price, img, quantity }, ...]
   const [cart, setCart] = useState([]);
-
   // Ürünü sepete ekle veya sayısını 1 artır
   const addToCart = product => {
     setCart(prev => {

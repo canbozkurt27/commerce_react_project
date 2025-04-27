@@ -18,16 +18,16 @@ export default function Cart({ cart, removeFromCart, updateQuantity }) {
           alt="Empty cart icon"
           className="empty-icon"
         />
-        <h2>Your cart is empty</h2>
+        <h2>Sepetin Boş</h2>
 
-        <Link to="/">Go back to products</Link>
+        <Link to="/">Ana Sayfaya Dön</Link>
       </div>
     );
   }
 
   return (
     <div className="cart-page">
-      <h2>Your Cart</h2>
+      <h2>Sepetin</h2>
       <ul className="cart-list">
         {cart.map(item => (
           <li key={item.id} className="cart-item">
@@ -64,7 +64,7 @@ export default function Cart({ cart, removeFromCart, updateQuantity }) {
                 className="remove-btn"
                 onClick={() => removeFromCart(item.id)}
               >
-                Remove
+                Sil
               </button>
             </div>
           </li>
@@ -74,10 +74,10 @@ export default function Cart({ cart, removeFromCart, updateQuantity }) {
       {/* Sepet özeti */}
       <div className="cart-summary">
         <p>
-          <strong>Total:</strong> ${total.toFixed(2)}
+          <strong>Toplam:</strong> ${total.toFixed(2)}
         </p>
         <Link to="/" className="continue-shopping">
-          Continue Shopping
+          Alışverişe Devam Et
         </Link>
       </div>
     </div>

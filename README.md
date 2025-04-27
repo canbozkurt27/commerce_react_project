@@ -1,3 +1,11 @@
+https://nodejs.org/tr
+Buradan node.js indir
+vs code üzerinden ES7+ React/Redux/React-Native snippets extension ı yükle
+terminale npm install yaz
+ardından terminale npm start yazarak projeyi çalıştır
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
